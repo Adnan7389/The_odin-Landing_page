@@ -27,6 +27,7 @@ a {
   font-size: 16px;
   color: #e5e7eb;
   text-decoration: none;
+  margin-right: 8px;
 }
 
 button {
@@ -86,4 +87,53 @@ h2 {
   height: 200px;
   max-width: 200px;
   border-radius: 8px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #e5e7eb;
+  padding: 80px 150px;
+  font-size: 36px lighter italic #1f2937;
+}
+
+.comment span {
+  display: flex;
+  align-items: end;
+  font-weight: bold;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  background-color: #3882f6;
+  margin: 60px 80px;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.sign-up button {
+  color: white;
+  border: 2px solid white;
+  flex-shrink: 0;
+}
+
+.sign-up p {
+  font-weight: 200;
+  color: #e5e7eb;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  padding: 16px;
+  color: #f9faf8;
+  font-weight: 50;
 }
